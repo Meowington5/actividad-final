@@ -1,0 +1,23 @@
+.row_title {
+  display: flex;
+  padding: 40px;
+  background-color: rgb(240, 197, 255);
+  text-align: center;
+  justify-content: center;
+  color: rgb(144, 81, 216);
+}
+
+table {
+  width: 100%;
+}
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container_body {
+  padding: 20px;
+}
+.pointer{
+  cursor: pointer;
+}

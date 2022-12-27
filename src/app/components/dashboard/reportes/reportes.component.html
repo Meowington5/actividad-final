@@ -1,0 +1,23 @@
+<div class="body">
+  <div class="login">
+    <mat-spinner diameter="50" *ngIf="loading" class="spinner"></mat-spinner>
+    <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="ingresar()">
+      <img src="../../../../assets/images/avatar.png" width="50%" alt="">
+      <h1>Formulario de contacto</h1>
+      <mat-form-field class="ancho" appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput autocomplete="off" formControlName="usuario" type="text" id="name" required>
+      </mat-form-field>
+      <mat-form-field class="ancho" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput autocomplete="off" formControlName="email" type="email" id="email" required>
+      </mat-form-field>
+      <mat-form-field class="example-full-width ancho">
+        <mat-label>Mensaje</mat-label>
+        <textarea matInput placeholder="Escribe una sugerencia o comentario." type="text" id="name" required></textarea>
+      </mat-form-field>
+      <button type="submit" mat-raised-button color="accent"
+        class="ancho enviarbtn">Enviar</button>
+    </form>
+  </div>
+</div>

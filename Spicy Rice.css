@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Spicy Rice';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Spicy Rice/Spicy-Rice-normal-400.eot);
+  src: local('Spicy Rice'), url(../fonts/Spicy Rice/Spicy-Rice-normal-400.ttf) format('truetype'), url(../fonts/Spicy Rice/Spicy-Rice-normal-400.woff) format('woff'), url(../fonts/Spicy Rice/Spicy-Rice-normal-400.svg#SpicyRice) format('svg'), url(../fonts/Spicy Rice/Spicy-Rice-normal-400.eot?#iefix) format('embedded-opentype'), url(../fonts/Spicy Rice/Spicy-Rice-normal-400.woff2) format('woff2');
+}
+

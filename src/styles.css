@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Sevillana';
+    src: url(src\assets\fonts\Sevillana\Sevillana-normal-400.ttf) format("truetype");
+}
+
+html, body { height: 100%; font-family: 'Sevillana', cursive; }
+body { margin: 0; font-family: 'Sevillana', cursive; }
+
